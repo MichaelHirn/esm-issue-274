@@ -1,4 +1,4 @@
-# Reproducing issues related to #274 (io-ts)
+# Reproducing issues related to #286 (io-ts)
 
 ### Introduction
 
@@ -10,7 +10,7 @@ On a high-level, the issue is that most of io-ts's sub-modules depend on `io-ts/
 
 Why it cannot be compiled is unexpected, because if we reproduce the `io-ts/Schemable` types directly (see [io-ts-rest-parameter.test.ts](./io-ts-rest-parameter.test.ts)) it does not throw any errors as one would expect.
 
-Associated issue: [#274](https://github.com/esm-dev/esm.sh/issues/274)
+Associated issue: [#286](https://github.com/esm-dev/esm.sh/issues/286), [#274](https://github.com/esm-dev/esm.sh/issues/274)
 
 ### Usage
 
